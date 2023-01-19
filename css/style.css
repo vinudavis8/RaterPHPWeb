@@ -1,0 +1,229 @@
+body {
+    display: grid;
+}
+
+.nav-items {
+    float: right;
+    margin-left: 15px;
+    ;
+}
+
+.nav-div {
+    display: inline !important;
+    width: 100% !important;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+}
+
+.logo-rater
+{
+width: 142px;
+}
+.div-box {
+    position: relative;
+}
+
+.div-search {
+    position: absolute;
+    height: 55%;
+    width: 30%;
+    opacity: .5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    background-color: #000;
+    color: teal;
+    opacity: .5;
+}
+
+.div-search div {
+    margin: auto;
+}
+
+.head-search {
+    text-align: center;
+}
+
+.trader-list {
+    display: inline;
+    height: auto;
+}
+
+.trader-card {
+    height: 400px;
+    width: 380px;
+    color: teal;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    float: left;
+}
+
+.trader-img {
+    width: 100%;
+    height: 60%;
+}
+
+.checked {
+    color: orange;
+}
+
+.modal-content {
+    font-weight: bold;
+}
+
+#tradersList {
+    min-height: 70vh;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+.div-profile {
+    margin: auto;
+}
+
+
+.review-box {
+    background-color: lightgray !important;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.histogram--bar {
+    height: 15px;
+    max-width: calc(100% - 80px);
+    margin-right: 5px;
+    background-color: #0083c3;
+    display: inline-block;
+}
+
+#testbutton {
+    background-color: #0f2e0c;
+    color: white
+}
+
+#testbutton.clicked {
+    background-color: #ba0202;
+}
+
+.clicked {
+    background-color: #198754;
+    color: white;
+}
+
+.login-user {
+    color: white;
+}
+
+#select-dates {
+    color: teal;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    float: left;
+}
+
+.div-available-dates {
+    overflow-x: scroll;
+    display: flex;
+
+}
+
+.rate-tradesmen-star:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.rate-tradesmen-star {
+    font-size: 30px;
+}
+
+.error-msg {
+    color: red;
+}
+
+.shadow-box {
+    width: 100%;
+    color: black;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    float: left;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.rate-base-layer {
+    color: #aaa;
+}
+
+.rate-hover-layer {
+    color: orange;
+}
+
+.rate2 {
+    font-size: 35px;
+}
+
+.rate2 .rate-hover-layer {
+    color: orange;
+}
+
+.rate2 .rate-select-layer {
+    color: orange;
+}
+
+.rate1 {
+    font-size: 35px;
+}
+
+.rate1 .rate-hover-layer {
+    color: orange;
+}
+
+.rate1 .rate-select-layer {
+    color: orange;
+}
+
+.rate1 {
+    pointer-events: none;
+}
+
+.profile-avatar {
+    margin-left: 40%;
+    height: 100px;
+}
+
+.center {
+    margin-left: 30%;
+}
+
+.grid-div {
+    min-height: 80vh;
+}
+
+.div-review {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.div-how
+{
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+}
